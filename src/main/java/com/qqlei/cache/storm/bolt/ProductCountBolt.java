@@ -1,7 +1,6 @@
 package com.qqlei.cache.storm.bolt;
 
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
 import com.qqlei.cache.storm.zk.ZookeeperSession;
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
@@ -92,8 +91,8 @@ public class ProductCountBolt extends BaseRichBolt {
                 // 获取到一个topn list
                 String topnProductListJSON = JSONArray.toJSONString(topnProductList);
                 zookeeperSession.setNode("/task-hot-product-list-" + taskId, topnProductListJSON);
-                JSONObject jsonObject = (JSONObject) JSONObject.toJSON(productCountMap);
-                zookeeperSession.setNode("/task-lru-product-list",jsonObject.toJSONString());
+
+                System.out.println("zookeeperSession.setNode：task-hot-product-list-"+taskId+"数据："+topnProductListJSON);
                 Utils.sleep(5000);
             }
         }
