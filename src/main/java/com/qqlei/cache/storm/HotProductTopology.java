@@ -10,6 +10,8 @@ import org.apache.storm.topology.TopologyBuilder;
 import org.apache.storm.tuple.Fields;
 import org.apache.storm.utils.Utils;
 
+import java.util.concurrent.CountDownLatch;
+
 /**
  * Created by 李雷 on 2017/10/27.
  */
@@ -20,7 +22,7 @@ public class HotProductTopology {
         TopologyBuilder builder = new TopologyBuilder();
         builder.setSpout("AccessLogKafkaSpout", new AccessLogKafkaSpout(), 1);
         builder.setBolt("LogParseBolt",new LogParseBolt(),5).setNumTasks(5).shuffleGrouping("AccessLogKafkaSpout");
-        builder.setBolt("ProductCountBolt",new ProductCountBolt(),5).fieldsGrouping("LogParseBolt",new Fields("productId"));
+        builder.setBolt("ProductCountBolt",new ProductCountBolt(),1).fieldsGrouping("LogParseBolt",new Fields("productId"));
 
         Config config = new Config();
 
@@ -34,7 +36,13 @@ public class HotProductTopology {
         } else {
             LocalCluster cluster = new LocalCluster();
             cluster.submitTopology("HotProductTopology", config, builder.createTopology());
-            Utils.sleep(3000000);
+
+            CountDownLatch countDownLatch = new CountDownLatch(1);
+            try {
+                countDownLatch.await();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
             cluster.shutdown();
         }
     }

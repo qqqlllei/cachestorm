@@ -3,6 +3,7 @@ package com.qqlei.cache.storm.bolt;
 import com.alibaba.fastjson.JSONArray;
 import com.qqlei.cache.storm.http.HttpClientUtils;
 import com.qqlei.cache.storm.zk.ZookeeperSession;
+import org.apache.storm.shade.org.yaml.snakeyaml.util.UriEncoder;
 import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.topology.OutputFieldsDeclarer;
@@ -104,7 +105,7 @@ public class ProductCountBolt extends BaseRichBolt {
                 }
 
                 int calculateCount = (int)Math.floor(productCountList.size() * 0.95);
-
+                if(calculateCount == 0) calculateCount=1;
                 Long totalCount = 0L;
                 for(int i = productCountList.size() - 1; i >= productCountList.size() - calculateCount; i--) {
                     totalCount += productCountList.get(i).getValue();
@@ -124,7 +125,7 @@ public class ProductCountBolt extends BaseRichBolt {
                         // 将缓存热点，那个商品对应的完整的缓存数据，发送请求到缓存服务去获取，反向推送到所有的后端应用nginx服务器上去
                         String cacheServiceURL = "http://10.33.50.40:8080/getProductInfo?productId=" + productCountEntry.getKey();
                         String response = HttpClientUtils.sendGetRequest(cacheServiceURL);
-
+                        response = UriEncoder.encode(response);
                         String[] appNginxURLs = new String[]{
                                 "http://10.33.80.104/hot?productId=" + productCountEntry.getKey() + "&productInfo=" + response,
                                 "http://10.33.80.105/hot?productId=" + productCountEntry.getKey() + "&productInfo=" + response

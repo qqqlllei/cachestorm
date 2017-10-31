@@ -18,14 +18,7 @@ public class ZookeeperSession {
             this.zookeeper = new ZooKeeper(
                     "10.33.80.107:2181,10.33.80.108:2181,10.33.80.109:2181",
                     50000,
-                    new Watcher() {
-                        public void process(WatchedEvent watchedEvent) {
-                            System.out.println("Receive watched event: " + watchedEvent.getState());
-                            if(Event.KeeperState.SyncConnected == watchedEvent.getState()) {
-                                connectedSemaphore.countDown();
-                            }
-                        }
-                    });
+                    new ZooKeeperWatcher());
 
             try {
                 this.connectedSemaphore.await();
@@ -36,6 +29,39 @@ public class ZookeeperSession {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 建立zk session的watcher
+     * @author Administrator
+     *
+     */
+    private class ZooKeeperWatcher implements Watcher {
+
+        public void process(WatchedEvent watchedEvent) {
+            System.out.println("Receive watched event: " + watchedEvent.getState());
+            if(Event.KeeperState.SyncConnected == watchedEvent.getState()) {
+                connectedSemaphore.countDown();
+            }else if(Event.KeeperState.Expired == watchedEvent.getState()){
+                System.out.println("The ZooKeeper client connection (the session) is no longer valid session expired. now rebuilding");
+                if(zookeeper != null){
+                    try {
+                        zookeeper.close();
+                        try {
+                            zookeeper = new ZooKeeper(
+                                    "10.33.80.107:2181,10.33.80.108:2181,10.33.80.109:2181",
+                                    50000,
+                                    this);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }
+
     }
 
 
