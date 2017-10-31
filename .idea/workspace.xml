@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763a390c-59e5-445a-8fdc-01a78197b762" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cachestorm/target/cache-storm-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cachestorm/target/original-cache-storm-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cachestorm/target/maven-archiver/pom.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_alibaba_fastjson_1_1_43.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_esotericsoftware_kryo_3_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_esotericsoftware_reflectasm_1_10_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_lmax_disruptor_3_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_yammer_metrics_metrics_annotation_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__junit_junit_4_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_3_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_kafka_kafka_2_9_2_0_8_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_storm_storm_core_1_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_clojure_clojure_1_7_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_jboss_netty_netty_3_2_2_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_scala_lang_scala_library_2_9_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_6_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/libraries/Maven__ring_cors_ring_cors_0_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/cachestorm.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/http/HttpClientUtils.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/HotProductTopology.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/bolt/LogParseBolt.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/bolt/ProductCountBolt$1.class" afterPath="" />
@@ -52,8 +13,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/zk/ZookeeperSession$1.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/zk/ZookeeperSession$Singleton.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/zk/ZookeeperSession.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/target/cache-storm-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../cachestorm/target/cache-storm-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/target/original-cache-storm-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../cachestorm/target/original-cache-storm-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/.gitignore" afterPath="$PROJECT_DIR$/../cachestorm/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../cachestorm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/cachestorm.iml" afterPath="$PROJECT_DIR$/../cachestorm/cachestorm.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/pom.xml" afterPath="$PROJECT_DIR$/../cachestorm/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java" afterPath="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cachestorm/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../cachestorm/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/../cachestorm/out/" />
     <ignored path="$PROJECT_DIR$/../cachestorm/target/" />
@@ -67,77 +34,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AccessLogKafkaSpout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/spout/AccessLogKafkaSpout.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCountBolt.class" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/bolt/ProductCountBolt.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#5045#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZookeeperSession.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/zk/ZookeeperSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotProductTopology.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/HotProductTopology.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCountBolt.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-925">
-              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-              <folding>
-                <element signature="e#1640#1663#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../cachestorm/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../cachestorm/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="124" column="71" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="71" />
+            <state relative-caret-position="327">
+              <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -181,9 +82,10 @@
         <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/LogParseBolt.java" />
         <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/HotProductTopology.java" />
         <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/zk/ZookeeperSession.java" />
-        <option value="$PROJECT_DIR$/../cachestorm/.gitignore" />
-        <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java" />
         <option value="$PROJECT_DIR$/../cachestorm/pom.xml" />
+        <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/http/HttpClientUtils.java" />
+        <option value="$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java" />
+        <option value="$PROJECT_DIR$/../cachestorm/.gitignore" />
       </list>
     </option>
   </component>
@@ -283,9 +185,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -298,8 +197,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cachestorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cachestorm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -778,7 +694,10 @@
       <option name="presentableId" value="Default" />
       <updated>1509085206533</updated>
       <workItem from="1509085218073" duration="11221000" />
-      <workItem from="1509330100571" duration="14523000" />
+      <workItem from="1509330100571" duration="15546000" />
+      <workItem from="1509356849922" duration="296000" />
+      <workItem from="1509361526547" duration="3581000" />
+      <workItem from="1509415865627" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="11234131">
       <created>1509343868980</created>
@@ -787,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509343868980</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11234131">
+      <created>1509352996591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1509352996591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25744000" />
+    <option name="totallyTimeSpent" value="30713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -799,21 +725,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40881458" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.70118845" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49235994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60271645" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5061082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5280136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5280136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33586627" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34574467" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -824,8 +748,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32597622" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="ZooKeeper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -850,10 +776,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37586206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49235994" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33586627" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5061082" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44821733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5280136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34615386" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="ZooKeeper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32978722" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -910,13 +836,48 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/http/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3275">
+          <caret line="131" column="83" lean-forward="true" selection-start-line="131" selection-start-column="83" selection-end-line="131" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/spout/AccessLogKafkaSpout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
           <caret line="48" column="60" lean-forward="false" selection-start-line="48" selection-start-column="60" selection-end-line="48" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,9 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -934,9 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,7 +900,7 @@
         <state relative-caret-position="500">
           <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <element signature="e#1640#1663#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1018,7 +973,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
           <caret line="463" column="5" lean-forward="true" selection-start-line="463" selection-start-column="5" selection-end-line="463" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,9 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,7 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,30 +1008,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../cachestorm/logs/workers-artifacts/HotProductTopology-1-1509343300/1024/worker.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cachestorm/logs/workers-artifacts/HotProductTopology-1-1509340773/1024/worker.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/logs/workers-artifacts/HotProductTopology-1-1509343300/1024/worker.yaml" />
+    <entry file="file://$PROJECT_DIR$/../cachestorm/logs/workers-artifacts/HotProductTopology-1-1509340773/1024/worker.yaml" />
     <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/zk/ZookeeperSession.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="21" column="72" lean-forward="false" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/HotProductTopology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/spout/AccessLogKafkaSpout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/bolt/ProductCountBolt.class" />
+    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/http/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1850">
+          <caret line="91" column="49" lean-forward="false" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1092,52 +1047,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../cachestorm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="124" column="71" lean-forward="false" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="71" />
+        <state relative-caret-position="3275">
+          <caret line="131" column="83" lean-forward="false" selection-start-line="131" selection-start-column="83" selection-end-line="131" selection-end-column="83" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/HotProductTopology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/spout/AccessLogKafkaSpout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="83" column="14" lean-forward="true" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../cachestorm/target/classes/com/qqlei/cache/storm/bolt/ProductCountBolt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#5045#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../cachestorm/src/main/java/com/qqlei/cache/storm/bolt/ProductCountBolt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-925">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        <state relative-caret-position="25">
+          <caret line="150" column="78" lean-forward="false" selection-start-line="150" selection-start-column="78" selection-end-line="150" selection-end-column="79" />
           <folding>
-            <element signature="e#1640#1663#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../cachestorm/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="327">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
