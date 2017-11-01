@@ -30,14 +30,6 @@ public class LogParseBolt extends BaseRichBolt {
         if(productId != null) {
             collector.emit(new Values(productId));
         }
-
-//        String line =  tuple.getString(0);
-//        JSONObject jsonObject = JSONObject.parseObject(line);
-//        JSONObject uriArgsJSON = jsonObject.getJSONObject("uri_args");
-//        Long productId = uriArgsJSON.getLong("productId");
-//        if(productId != null) {
-//            collector.emit(new Values(productId));
-//        }
     }
 
     public void declareOutputFields(OutputFieldsDeclarer outputFieldsDeclarer) {
